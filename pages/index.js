@@ -13,7 +13,7 @@ export default function Home() {
       <main>
         <Header title="Welcome to my app!" />
         <p className="description">
-          Get started by editing [CHANGED].. <code>pages/index.js</code>
+          Get started by editing [CHANGED 2].. <code>pages/index.js</code>
         </p>
       </main>
 
