@@ -15,8 +15,9 @@ main {
   flex: 1;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  //justify-content: center;
   align-items: center;
+  min-height: 80vh;
 }
 
 code {
@@ -26,6 +27,8 @@ code {
   font-family: Menlo, Monaco, Lucida Console, Courier New, monospace;
 }
 
+header { background: #000; color: #fafafa;}
+/*
 .container {
   height: 100vh;
   display: flex;
@@ -33,3 +36,7 @@ code {
   justify-content: center;
   align-items: center;
 }
+*/
+
+@import 'header';
+@import 'jumbo';
